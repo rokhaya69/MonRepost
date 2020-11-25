@@ -19,12 +19,12 @@ public class Calculator {
 		return minus;
 	}
 	
-	public int divide(int a,int b) throws Exception {
+	/*public int divide(int a,int b) throws Exception {
 		
 		if(b==0) throw new Exception ("division par zero erreur");
 		return a/b;
 	}
-	
+	*/
 	public int multiply(int a,int b) throws Exception {
 		mul=a*b;
 		if((a>0 && b>0) && mul<0) throw new Exception ("Le resultat de la multiplication des deux entiers depasse le nombre de bit resrvé au type int");
