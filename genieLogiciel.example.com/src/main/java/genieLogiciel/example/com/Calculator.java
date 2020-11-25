@@ -5,12 +5,12 @@ import java.util.Arrays;
 public class Calculator {
 	int sum,mul,minus;
 
-	/*public int sum(int a,int b) throws Exception {
+	public int sum(int a,int b) throws Exception {
 		sum=a+b;
 		if((a>0 && b>0) && sum<0 ) throw new Exception ("Le resultat de la somme des deux entiers depasse le nombre de bit reservé au type int");
 		if((a<0 && b<0) && sum>0)  throw new Exception ("Le resultat de la somme des deux entiers depasse le nombre de bit reservé au type int");
 		return sum;
-	}*/
+	}
 	
 	public int minus(int a,int b) throws Exception {
 		minus =a-b;
