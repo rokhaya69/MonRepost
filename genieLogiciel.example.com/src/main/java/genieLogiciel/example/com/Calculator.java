@@ -49,10 +49,10 @@ public class Calculator {
 		return list[0];
 	}
 	
-	public int maxElement(int[]list) throws Exception {
+	/*public int maxElement(int[]list) throws Exception {
 		if(list.length==0) throw new Exception ("la liste est vide");
 		Arrays.sort(list);
 		return list[list.length -1];
-	}
+	}*/
 
 }
